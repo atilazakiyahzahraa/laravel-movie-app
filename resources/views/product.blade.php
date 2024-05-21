@@ -68,6 +68,20 @@
                     </p>
                 </div>
             </div>
+            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                <a href="#" class="block px-4 pt-4">
+                    <img class="object-cover h-60 w-96" src="src/images/movie/movie-05.jpg" alt="Cards" />
+                </a>
+
+                <div class="p-6 overflow-hidden">
+                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                        <a href="#">Jujutsu Kaisen</a>
+                    </h4>
+                    <p class="font-medium">
+                    A world where Cursed Spirits feed on unsuspecting humans and fragments of the legendary and feared demon Ryomen Sukuna have been lost and scattered about.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </main>
