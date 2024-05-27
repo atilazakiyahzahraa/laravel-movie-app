@@ -49,30 +49,31 @@
                     <div class="col-span-1 flex items-center">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">  
                             <p class="text-sm font-medium text-black dark:text-white">
-                                {{ $review['id'] }}
+                                {{ $review->id }}
                             </p>
                         </div>
+    
                     </div>
                     <div class="col-span-1 flex items-center">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">  
                             <p class="text-sm font-medium text-black dark:text-white">
-                                {{ $review['movie'] }}
+                                {{ $review->movie->title }}
                             </p>
                         </div>
                     </div>
                     <div class="col-span-1 items-center sm:flex">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{ $review['user'] }}
+                            {{ $review->user }}
                         </p>
                     </div>
                     <div class="col-span-1 items-center sm:flex">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            {{ $review['rating'] }}
+                            {{ $review->rating }}
                         </p>
                     </div>
                     <div class="col-span-1 items-center sm:flex">
                         <p class="text-sm font-medium text-black dark:text-white">
-                        {{ $review['date']}}
+                        {{ $review->date }}
                         </p>
                     </div>
                     
